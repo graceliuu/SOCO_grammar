@@ -17,8 +17,4 @@
 		</one-of>
 	</rule>
 
-	<rule id='hi' scope='public'>
-		<item>hi</item>
-	</rule>
-
 </grammar>
