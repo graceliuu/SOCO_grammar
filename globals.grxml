@@ -16,36 +16,28 @@ tag-format='semantics/1.0' version='1.0' root='power'>
 		</one-of>
 	</rule>
 	<rule id='power' scope='public'>
-		<tag>out='PowerProblem';</tag>
-		<item>power problem</item>
+		<item>power problem<tag>out='PowerProblem';</tag></item>
 	</rule>
 	<rule id='balance' scope='public'>
-		<tag>out='Balance';</tag>
-		<item>balance</item>
+		<item>balance<tag>out='Balance';</tag></item>
 	</rule>
 	<rule id='payment' scope='public'>
-		<tag>out='PaymentArrangement';</tag>
-		<item>payment arrangement</item>
+		<item>payment arrangement<tag>out='PaymentArrangement';</tag></item>
 	</rule>
 	<rule id='waystopay' scope='public'>
-		<tag>out='WaysToPay';</tag>
-		<item>ways to pay</item>
+		<item>ways to pay<tag>out='WaysToPay';</tag></item>
 	</rule>
 	<rule id='other' scope='public'>
-		<tag>out='Other';</tag>
-		<item>other</item>
+		<item>other<tag>out='Other';</tag></item>
 	</rule>
 	<rule id='repeat' scope='public'>
-		<tag>out='Repeat';</tag>
-		<item>repeat</item>
+		<item>repeat<tag>out='Repeat';</tag></item>
 	</rule>
 	<rule id='operator' scope='public'>
-		<tag>out='Operator';</tag>
-		<item>operator</item>
+		<item>operator<tag>out='Operator';</tag></item>
 	</rule>
 	<rule id='goodbye' scope='public'>
-		<tag>out='GoodBye';</tag>
-		<item>good bye</item>
+		<item>good bye<tag>out='GoodBye';</tag></item>
 	</rule>
 	<rule id='yes' scope='public'>
 		<tag>out='Yes';</tag>
