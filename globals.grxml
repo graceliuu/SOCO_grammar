@@ -1,7 +1,6 @@
 <grammar mode='voice' xml:lang='en-US'
-	xmlns='http://www.w3.org/2001/06/grammar'
-	tag-format='semantics/1.0' version='1.0' root='digits'>
-  
+xmlns='http://www.w3.org/2001/06/grammar'
+tag-format='semantics/1.0' version='1.0' root='digits'> 
 	<rule id='digits' scope='public'>
 		<one-of>
 			<item>zero<tag>out='0';</tag></item>
@@ -16,5 +15,93 @@
 			<item>nine<tag>out='9';</tag></item>
 		</one-of>
 	</rule>
-
+	<rule id='power'>
+		<tag>out='PowerProblem';</tag>
+		<item>power problem</item>
+	</rule>
+	<rule id='balance'>
+		<tag>out='Balance';</tag>
+		<item>balance</item>
+	</rule>
+	<rule id='payment'>
+		<tag>out='PaymentArrangement';</tag>
+		<item>payment arrangement</item>
+	</rule>
+	<rule id='waystopay'>
+		<tag>out='WaysToPay';</tag>
+		<item>ways to pay</item>
+	</rule>
+	<rule id='other'>
+		<tag>out='Other';</tag>
+		<item>other</item>
+	</rule>
+	<rule id='repeat' scope='public'>
+		<tag>out='Repeat';</tag>
+		<item>repeat</item>
+	</rule>
+	<rule id='operator' scope='public'>
+		<tag>out='Operator';</tag>
+		<item>operator</item>
+	</rule>
+	<rule id='goodbye' scope='public'>
+		<tag>out='GoodBye';</tag>
+		<item>good bye</item>
+	</rule>
+	<rule id='yes'>
+		<tag>out='Yes';</tag>
+		<item>yes</item>
+	</rule>
+	<rule id='no'>
+		<tag>out='No';</tag>
+		<item>no</item>
+	</rule>
+	<rule id='account' scope='public'>
+		<tag>out='AnotherAccount';</tag>
+		<item>Another account</item>
+	</rule>
+	<rule id='previous' scope='public'>
+		<tag>out='Previous';</tag>
+		Prevoius
+		<item repeat='0-1'>menu</item>
+	</rule>
+	<rule id='mainmenu' scope='public'>
+		<tag>out='MainMenu';</tag>
+		<item>Main menu</item>
+	</rule>
+	<rule id='paynow' scope='public'>
+		<tag>out='PayNow';</tag>
+		<item>Pay now</item>
+	</rule>
+	<rule id='payloc'>
+		<tag>out='PayLocations';</tag>
+		<item>Payment locations</item>
+	</rule>
+    <rule id='transfer'>
+        <tag>out='Transfer';</tag>
+        <item>Transfer</item>
+    </rule>
+    <rule id='information'>
+        <tag>out='Information';</tag>
+        <item>Information</item>
+    </rule>
+	<rule id='change'>
+	    <tag>out='ChangeArrangement';</tag>
+	    <item>Change</item>
+	</rule>
+	<rule id='continue'>
+		<tag>out='Continue';</tag>
+		<item>continue</item>
+	</rule>
+	<rule id='different'>
+		<tag>out='Different';</tag>
+		<item>different</item>
+	</rule>
+    <rule id='agree'>
+        <tag>out='ConfirmArrangement';</tag>
+        <item>Agree</item>
+    </rule>
+    <rule id='decline'>
+        <tag>out='DeclineArrangement';</tag>
+        <item>Decline</item>
+    </rule>
 </grammar>
