@@ -1,6 +1,6 @@
 <grammar mode='voice' xml:lang='en-US'
 xmlns='http://www.w3.org/2001/06/grammar'
-tag-format='semantics/1.0' version='1.0' root='digits'> 
+tag-format='semantics/1.0' version='1.0' root='power'> 
 	<rule id='digits' scope='public'>
 		<one-of>
 			<item>zero<tag>out='0';</tag></item>
