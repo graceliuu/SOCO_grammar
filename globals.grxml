@@ -77,16 +77,16 @@ tag-format='semantics/1.0' version='1.0' root='digits'>
 		<item>Payment locations</item>
 	</rule>
 	<rule id='transfer'>
-        <tag>out='Transfer';</tag>
-        <item>Transfer</item>
-    </rule>
-    <rule id='information'>
-        <tag>out='Information';</tag>
-        <item>Information</item>
-    </rule>
+        	<tag>out='Transfer';</tag>
+        	<item>Transfer</item>
+    	</rule>
+    	<rule id='information'>
+        	<tag>out='Information';</tag>
+        	<item>Information</item>
+    	</rule>
 	<rule id='change'>
-	    <tag>out='ChangeArrangement';</tag>
-	    <item>Change</item>
+	    	<tag>out='ChangeArrangement';</tag>
+	    	<item>Change</item>
 	</rule>
 	<rule id='continue'>
 		<tag>out='Continue';</tag>
@@ -96,12 +96,12 @@ tag-format='semantics/1.0' version='1.0' root='digits'>
 		<tag>out='Different';</tag>
 		<item>different</item>
 	</rule>
-    <rule id='agree'>
-        <tag>out='ConfirmArrangement';</tag>
-        <item>Agree</item>
-    </rule>
-    <rule id='decline'>
-        <tag>out='DeclineArrangement';</tag>
-        <item>Decline</item>
-    </rule>
+    	<rule id='agree'>
+        	<tag>out='ConfirmArrangement';</tag>
+        	<item>Agree</item>
+    	</rule>
+    	<rule id='decline'>
+        	<tag>out='DeclineArrangement';</tag>
+        	<item>Decline</item>
+    	</rule>
 </grammar>
