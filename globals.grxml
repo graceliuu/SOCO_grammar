@@ -81,12 +81,10 @@ tag-format='semantics/1.0' version='1.0' root='power'>
 	    	<item>Change</item>
 	</rule>
 	<rule id='continue' scope='public'>
-		<tag>out='Continue';</tag>
-		<item>continue</item>
+		<item>continue<tag>out='Continue';</tag></item>
 	</rule>
 	<rule id='different' scope='public'>
-		<tag>out='Different';</tag>
-		<item>different</item>
+		<item>different<tag>out='Different';</tag></item>
 	</rule>
     	<rule id='agree' scope='public'>
         	<tag>out='ConfirmArrangement';</tag>
