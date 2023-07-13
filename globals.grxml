@@ -40,45 +40,40 @@ tag-format='semantics/1.0' version='1.0' root='power'>
 		<item>good bye<tag>out='GoodBye';</tag></item>
 	</rule>
 	<rule id='yes' scope='public'>
-		<tag>out='Yes';</tag>
-		<item>yes</item>
+		<item>yes<tag>out='Yes';</tag></item>
 	</rule>
 	<rule id='no' scope='public'>
-		<tag>out='No';</tag>
-		<item>no</item>
+		<item>no<tag>out='No';</tag></item>
 	</rule>
 	<rule id='account' scope='public'>
-		<tag>out='AnotherAccount';</tag>
-		<item>Another account</item>
+		<item>Another account<tag>out='AnotherAccount';</tag></item>
 	</rule>
 	<rule id='previous' scope='public'>
-		<tag>out='Previous';</tag>
-		Prevoius
-		<item repeat='0-1'>menu</item>
+		<item>
+			Previous
+			<item repeat='0-1'>
+				menu
+			</item>
+			<tag>out='Previous';</tag>
+		</item>
 	</rule>
 	<rule id='mainmenu' scope='public'>
-		<tag>out='MainMenu';</tag>
-		<item>Main menu</item>
+		<item>Main menu<tag>out='MainMenu';</tag></item>
 	</rule>
 	<rule id='paynow' scope='public'>
-		<tag>out='PayNow';</tag>
-		<item>Pay now</item>
+		<item>Pay now<tag>out='PayNow';</tag></item>
 	</rule>
 	<rule id='payloc' scope='public'>
-		<tag>out='PayLocations';</tag>
-		<item>Payment locations</item>
+		<item>Payment locations<tag>out='PayLocations';</tag></item>
 	</rule>
 	<rule id='transfer' scope='public'>
-        	<tag>out='Transfer';</tag>
-        	<item>Transfer</item>
+        	<item>Transfer<tag>out='Transfer';</tag></item>
     	</rule>
     	<rule id='information' scope='public'>
-        	<tag>out='Information';</tag>
-        	<item>Information</item>
+        	<item>Information<tag>out='Information';</tag></item>
     	</rule>
 	<rule id='change' scope='public'>
-	    	<tag>out='ChangeArrangement';</tag>
-	    	<item>Change</item>
+	    	<item>Change<tag>out='ChangeArrangement';</tag></item>
 	</rule>
 	<rule id='continue' scope='public'>
 		<item>continue<tag>out='Continue';</tag></item>
@@ -87,11 +82,9 @@ tag-format='semantics/1.0' version='1.0' root='power'>
 		<item>different<tag>out='Different';</tag></item>
 	</rule>
     	<rule id='agree' scope='public'>
-        	<tag>out='ConfirmArrangement';</tag>
-        	<item>Agree</item>
+        	<item>Agree<tag>out='ConfirmArrangement';</tag></item>
     	</rule>
     	<rule id='decline' scope='public'>
-        	<tag>out='DeclineArrangement';</tag>
-        	<item>Decline</item>
+        	<item>Decline<tag>out='DeclineArrangement';</tag></item>
     	</rule>
 </grammar>
