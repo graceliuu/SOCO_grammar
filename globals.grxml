@@ -15,23 +15,23 @@ tag-format='semantics/1.0' version='1.0' root='digits'>
 			<item>nine<tag>out='9';</tag></item>
 		</one-of>
 	</rule>
-	<rule id='power'>
+	<rule id='power' scope='public>
 		<tag>out='PowerProblem';</tag>
 		<item>power problem</item>
 	</rule>
-	<rule id='balance'>
+	<rule id='balance' scope='public>
 		<tag>out='Balance';</tag>
 		<item>balance</item>
 	</rule>
-	<rule id='payment'>
+	<rule id='payment' scope='public>
 		<tag>out='PaymentArrangement';</tag>
 		<item>payment arrangement</item>
 	</rule>
-	<rule id='waystopay'>
+	<rule id='waystopay' scope='public>
 		<tag>out='WaysToPay';</tag>
 		<item>ways to pay</item>
 	</rule>
-	<rule id='other'>
+	<rule id='other' scope='public>
 		<tag>out='Other';</tag>
 		<item>other</item>
 	</rule>
@@ -47,11 +47,11 @@ tag-format='semantics/1.0' version='1.0' root='digits'>
 		<tag>out='GoodBye';</tag>
 		<item>good bye</item>
 	</rule>
-	<rule id='yes'>
+	<rule id='yes' scope='public>
 		<tag>out='Yes';</tag>
 		<item>yes</item>
 	</rule>
-	<rule id='no'>
+	<rule id='no' scope='public>
 		<tag>out='No';</tag>
 		<item>no</item>
 	</rule>
@@ -72,35 +72,35 @@ tag-format='semantics/1.0' version='1.0' root='digits'>
 		<tag>out='PayNow';</tag>
 		<item>Pay now</item>
 	</rule>
-	<rule id='payloc'>
+	<rule id='payloc' scope='public>
 		<tag>out='PayLocations';</tag>
 		<item>Payment locations</item>
 	</rule>
-	<rule id='transfer'>
+	<rule id='transfer' scope='public>
         	<tag>out='Transfer';</tag>
         	<item>Transfer</item>
     	</rule>
-    	<rule id='information'>
+    	<rule id='information' scope='public>
         	<tag>out='Information';</tag>
         	<item>Information</item>
     	</rule>
-	<rule id='change'>
+	<rule id='change' scope='public>
 	    	<tag>out='ChangeArrangement';</tag>
 	    	<item>Change</item>
 	</rule>
-	<rule id='continue'>
+	<rule id='continue' scope='public>
 		<tag>out='Continue';</tag>
 		<item>continue</item>
 	</rule>
-	<rule id='different'>
+	<rule id='different' scope='public>
 		<tag>out='Different';</tag>
 		<item>different</item>
 	</rule>
-    	<rule id='agree'>
+    	<rule id='agree' scope='public>
         	<tag>out='ConfirmArrangement';</tag>
         	<item>Agree</item>
     	</rule>
-    	<rule id='decline'>
+    	<rule id='decline' scope='public>
         	<tag>out='DeclineArrangement';</tag>
         	<item>Decline</item>
     	</rule>
