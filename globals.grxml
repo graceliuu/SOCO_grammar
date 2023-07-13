@@ -51,9 +51,7 @@ tag-format='semantics/1.0' version='1.0' root='power'>
 	<rule id='previous' scope='public'>
 		<item>
 			Previous
-			<item repeat='0-1'>
-				menu
-			</item>
+			<item repeat='0-1'>menu</item>
 			<tag>out='Previous';</tag>
 		</item>
 	</rule>
