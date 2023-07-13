@@ -76,7 +76,7 @@ tag-format='semantics/1.0' version='1.0' root='digits'>
 		<tag>out='PayLocations';</tag>
 		<item>Payment locations</item>
 	</rule>
-    <rule id='transfer'>
+	<rule id='transfer'>
         <tag>out='Transfer';</tag>
         <item>Transfer</item>
     </rule>
