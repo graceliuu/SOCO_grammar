@@ -73,7 +73,7 @@ tag-format='semantics/1.0' version='1.0' root='power'>
 	<rule id='change' scope='public'>
 	    	<item>Change<tag>out='ChangeArrangement';</tag></item>
 	</rule>
-	<rule id='continue_speech' scope='public'>
+	<rule id='continue_rule' scope='public'>
 		<item>continue<tag>out='Continue';</tag></item>
 	</rule>
 	<rule id='different' scope='public'>
