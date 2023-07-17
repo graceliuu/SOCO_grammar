@@ -16,73 +16,72 @@ tag-format='semantics/1.0' version='1.0' root='power'>
 		</one-of>
 	</rule>
 	<rule id='power' scope='public'>
-		<item>power problem<tag>out='PowerProblem';</tag></item>
+		<item>power problem</item>
 	</rule>
 	<rule id='balance' scope='public'>
-		<item>balance<tag>out='Balance';</tag></item>
+		<item>balance</item>
 	</rule>
 	<rule id='payment' scope='public'>
-		<item>payment arrangement<tag>out='PaymentArrangement';</tag></item>
+		<item>payment arrangement</item>
 	</rule>
 	<rule id='waystopay' scope='public'>
-		<item>ways to pay<tag>out='WaysToPay';</tag></item>
+		<item>ways to pay</item>
 	</rule>
 	<rule id='other' scope='public'>
-		<item>other<tag>out='Other';</tag></item>
+		<item>other</item>
 	</rule>
 	<rule id='repeat' scope='public'>
-		<item>repeat<tag>out='Repeat';</tag></item>
+		<item>repeat</item>
 	</rule>
 	<rule id='operator' scope='public'>
-		<item>operator<tag>out='Operator';</tag></item>
+		<item>operator</item>
 	</rule>
 	<rule id='goodbye' scope='public'>
-		<item>good bye<tag>out='GoodBye';</tag></item>
+		<item>good bye</item>
 	</rule>
 	<rule id='yes' scope='public'>
-		<item>yes<tag>out='Yes';</tag></item>
+		<item>yes</item>
 	</rule>
 	<rule id='no' scope='public'>
-		<item>no<tag>out='No';</tag></item>
+		<item>no</item>
 	</rule>
 	<rule id='account' scope='public'>
-		<item>Another account<tag>out='AnotherAccount';</tag></item>
+		<item>Another account</item>
 	</rule>
 	<rule id='previous' scope='public'>
 		<item>
 			Previous
 			<item repeat='0-1'>menu</item>
-			<tag>out='Previous';</tag>
 		</item>
 	</rule>
 	<rule id='mainmenu' scope='public'>
-		<item>Main menu<tag>out='MainMenu';</tag></item>
+		<item>Main menu</item>
 	</rule>
 	<rule id='paynow' scope='public'>
-		<item>Pay now<tag>out='PayNow';</tag></item>
+		<item>Pay now</item>
 	</rule>
 	<rule id='payloc' scope='public'>
-		<item>Payment locations<tag>out='PayLocations';</tag></item>
+		<item>Payment locations</item>
 	</rule>
 	<rule id='transfer' scope='public'>
-        	<item>Transfer<tag>out='Transfer';</tag></item>
+        	<item>Transfer</item>
     	</rule>
     	<rule id='information' scope='public'>
-        	<item>Information<tag>out='Information';</tag></item>
+        	<item>Information</item>
     	</rule>
 	<rule id='change' scope='public'>
-	    	<item>Change<tag>out='ChangeArrangement';</tag></item>
+	    	<item>Change</item>
 	</rule>
 	<rule id='continue_rule' scope='public'>
-		<item>continue<tag>out='Continue';</tag></item>
+		<item>continue</item>
 	</rule>
 	<rule id='different' scope='public'>
-		<item>different<tag>out='Different';</tag></item>
+		<item>different</item>
 	</rule>
     	<rule id='agree' scope='public'>
-        	<item>Agree<tag>out='ConfirmArrangement';</tag></item>
+        	<item>Agree</item>
     	</rule>
     	<rule id='decline' scope='public'>
-        	<item>Decline<tag>out='DeclineArrangement';</tag></item>
+        	<item>Decline</item>
     	</rule>
 </grammar>
