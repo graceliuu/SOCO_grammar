@@ -79,6 +79,7 @@ tag-format='semantics/1.0' version='1.0' root='power'>
 		</one-of>
 		<item repeat='0-1'><ruleref special='GARBAGE'/></item>
 	</rule>
+	<--!Use versay YesNo-->
 	<rule id='yes' scope='public'>
 		<item>yes</item>
 	</rule>
