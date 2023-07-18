@@ -16,28 +16,68 @@ tag-format='semantics/1.0' version='1.0' root='power'>
 		</one-of>
 	</rule>
 	<rule id='power' scope='public'>
+		<item repeat='0-1'><ruleref special='GARBAGE'/></item>
 		<item>power problem</item>
+		<item repeat='0-1'><ruleref special='GARBAGE'/></item>
 	</rule>
 	<rule id='balance' scope='public'>
+		<item repeat='0-1'><ruleref special='GARBAGE'/></item>
 		<item>balance</item>
+		<item repeat='0-1'><ruleref special='GARBAGE'/></item>
 	</rule>
 	<rule id='payment' scope='public'>
+		<item repeat='0-1'><ruleref special='GARBAGE'/></item>
 		<item>payment arrangement</item>
+		<item repeat='0-1'><ruleref special='GARBAGE'/></item>
 	</rule>
 	<rule id='waystopay' scope='public'>
+		<item repeat='0-1'><ruleref special='GARBAGE'/></item>
 		<item>ways to pay</item>
+		<item repeat='0-1'><ruleref special='GARBAGE'/></item>
 	</rule>
 	<rule id='other' scope='public'>
+		<item repeat='0-1'><ruleref special='GARBAGE'/></item>
 		<item>other</item>
+		<item repeat='0-1'><ruleref special='GARBAGE'/></item>
 	</rule>
 	<rule id='repeat' scope='public'>
-		<item>repeat</item>
+		<item repeat='0-1'><ruleref special='GARBAGE'/></item>
+		<one-of>
+			<item>repeat</item>
+			<item>again</item>
+		</one-of>
+		<item repeat='0-1'><ruleref special='GARBAGE'/></item>
 	</rule>
 	<rule id='operator' scope='public'>
-		<item>operator</item>
+		<item repeat='0-1'><ruleref special='GARBAGE'/></item>
+		<one-of>
+			<item weight='2'>operator</item>
+			<item>agent</item>
+			<item>representative</item>
+			<item>human</item>
+			<item>customer service</item>
+			<item>someone</item>
+			<item>somebody</item>
+		</one-of>
+		<item repeat='0-1'><ruleref special='GARBAGE'/></item>
 	</rule>
 	<rule id='goodbye' scope='public'>
-		<item>good bye</item>
+		<item repeat='0-1'><ruleref special='GARBAGE'/></item>
+		<one-of>
+			<item>goodbye</item>
+			<item>bye</item>
+			<item>
+				<one-of>
+					<item>I am</item>
+					<item>I'm</item>
+				</one-of>
+				<one-of>
+					<item>done</item>
+					<item>finished</item>
+				</one-of>
+			</item>
+		</one-of>
+		<item repeat='0-1'><ruleref special='GARBAGE'/></item>
 	</rule>
 	<rule id='yes' scope='public'>
 		<item>yes</item>
@@ -46,42 +86,88 @@ tag-format='semantics/1.0' version='1.0' root='power'>
 		<item>no</item>
 	</rule>
 	<rule id='account' scope='public'>
-		<item>Another account</item>
+		<item repeat='0-1'><ruleref special='GARBAGE'/></item>
+		<item>
+			<one-of>
+				<item>another</item>
+				<item>other</item>
+			</one-of>
+			account
+		</item>
+		<item repeat='0-1'><ruleref special='GARBAGE'/></item>
 	</rule>
 	<rule id='previous' scope='public'>
-		<item>
-			Previous
-			<item repeat='0-1'>menu</item>
-		</item>
+		<item repeat='0-1'><ruleref special='GARBAGE'/></item>
+		<one-of>
+			<item weight='2'>
+				previous
+				<item repeat='0-1'>menu</item>
+			</item>
+			<item>go back</item>
+			<item>back up</item>
+		</one-of>
+		<item repeat='0-1'><ruleref special='GARBAGE'/></item>
 	</rule>
 	<rule id='mainmenu' scope='public'>
-		<item>Main menu</item>
+		<item repeat='0-1'><ruleref special='GARBAGE'/></item>
+		<item>main menu</item>
 	</rule>
 	<rule id='paynow' scope='public'>
-		<item>Pay now</item>
+		<item repeat='0-1'><ruleref special='GARBAGE'/></item>
+		<item>
+			pay
+			<item repeat='0-1'>now</item>
+		</item>
+		<item repeat='0-1'><ruleref special='GARBAGE'/></item>
 	</rule>
 	<rule id='payloc' scope='public'>
-		<item>Payment locations</item>
+		<item repeat='0-1'><ruleref special='GARBAGE'/></item>
+		<item>payment locations</item>
+		<item repeat='0-1'><ruleref special='GARBAGE'/></item>
 	</rule>
 	<rule id='transfer' scope='public'>
-        	<item>Transfer</item>
+		<item repeat='0-1'><ruleref special='GARBAGE'/></item>
+        	<item>transfer</item>
+		<item repeat='0-1'><ruleref special='GARBAGE'/></item>
     	</rule>
     	<rule id='information' scope='public'>
-        	<item>Information</item>
+		<item repeat='0-1'><ruleref special='GARBAGE'/></item>
+        	<item>information</item>
+		<item repeat='0-1'><ruleref special='GARBAGE'/></item>
     	</rule>
 	<rule id='change' scope='public'>
-	    	<item>Change</item>
+		<item repeat='0-1'><ruleref special='GARBAGE'/></item>
+	    	<item>change</item>
+		<item repeat='0-1'><ruleref special='GARBAGE'/></item>
 	</rule>
 	<rule id='continue_rule' scope='public'>
+		<item repeat='0-1'><ruleref special='GARBAGE'/></item>
 		<item>continue</item>
+		<item repeat='0-1'><ruleref special='GARBAGE'/></item>
 	</rule>
 	<rule id='different' scope='public'>
+		<item repeat='0-1'><ruleref special='GARBAGE'/></item>
 		<item>different</item>
+		<item repeat='0-1'><ruleref special='GARBAGE'/></item>
 	</rule>
     	<rule id='agree' scope='public'>
-        	<item>Agree</item>
+		<item repeat='0-1'><ruleref special='GARBAGE'/></item>
+        	<item>agree</item>
+		<item repeat='0-1'><ruleref special='GARBAGE'/></item>
     	</rule>
     	<rule id='decline' scope='public'>
-        	<item>Decline</item>
+		<item repeat='0-1'><ruleref special='GARBAGE'/></item>
+		<one-of>
+        		<item>decline</item>
+			<item>disagree</item>
+			<item>
+				<one-of>
+					<item>don't</item>
+					<item>do not</item>
+				</one-of>
+				agree
+			</item>
+		</one-of>
+		<item repeat='0-1'><ruleref special='GARBAGE'/></item>
     	</rule>
 </grammar>
