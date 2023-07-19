@@ -171,4 +171,33 @@ tag-format='semantics/1.0' version='1.0' root='power'>
 		</one-of>
 		<item repeat='0-1'><ruleref special='GARBAGE'/></item>
     	</rule>
+    	<rule id='outagestatus' scope='public'>
+		<item repeat='0-1'><ruleref special='GARBAGE'/></item>
+        	<one-of>
+			<item weight='2'>outage</item>
+			<item weight='2'>status</item>
+			<item>power</item>
+		</one-of>
+		<item repeat='0-1'><ruleref special='GARBAGE'/></item>
+    	</rule>
+    	<rule id='danger' scope='public'>
+		<item repeat='0-1'><ruleref special='GARBAGE'/></item>
+        	<one-of>
+			<item weight='2'>danger</item>
+			<item>hazard</item>
+			<item>dangerous</item>
+			<item>hazardous</item>
+		</one-of>
+		<item repeat='0-1'><ruleref special='GARBAGE'/></item>
+    	</rule>
+    	<rule id='lights' scope='public'>
+		<item repeat='0-1'><ruleref special='GARBAGE'/></item>
+        	<one-of>
+			<item>blinking</item>
+			<item>dim</item>
+			<item>bright</item>
+			<item>partial</item>
+		</one-of>
+		<item repeat='0-1'><ruleref special='GARBAGE'/></item>
+    	</rule>
 </grammar>
