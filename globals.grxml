@@ -171,12 +171,17 @@ tag-format='semantics/1.0' version='1.0' root='power'>
 		</one-of>
 		<item repeat='0-1'><ruleref special='GARBAGE'/></item>
     	</rule>
-    	<rule id='outagestatus' scope='public'>
+    	<rule id='outage' scope='public'>
 		<item repeat='0-1'><ruleref special='GARBAGE'/></item>
         	<one-of>
 			<item weight='2'>outage</item>
+		</one-of>
+		<item repeat='0-1'><ruleref special='GARBAGE'/></item>
+    	</rule>
+    	<rule id='status' scope='public'>
+		<item repeat='0-1'><ruleref special='GARBAGE'/></item>
+        	<one-of>
 			<item weight='2'>status</item>
-			<item>power</item>
 		</one-of>
 		<item repeat='0-1'><ruleref special='GARBAGE'/></item>
     	</rule>
@@ -187,6 +192,14 @@ tag-format='semantics/1.0' version='1.0' root='power'>
 			<item>hazard</item>
 			<item>dangerous</item>
 			<item>hazardous</item>
+		</one-of>
+		<item repeat='0-1'><ruleref special='GARBAGE'/></item>
+    	</rule>
+    	<rule id='outdoor' scope='public'>
+		<item repeat='0-1'><ruleref special='GARBAGE'/></item>
+        	<one-of>
+			<item weight='2'>outdoor</item>
+			<item>street</item>
 		</one-of>
 		<item repeat='0-1'><ruleref special='GARBAGE'/></item>
     	</rule>
