@@ -105,6 +105,7 @@ tag-format='semantics/1.0' version='1.0' root='power'>
 	<rule id='mainmenu' scope='public'>
 		<item repeat='0-1'><ruleref special='GARBAGE'/></item>
 		<item>main menu</item>
+		<item repeat='0-1'><ruleref special='GARBAGE'/></item>
 	</rule>
 	<rule id='paynow' scope='public'>
 		<item repeat='0-1'><ruleref special='GARBAGE'/></item>
@@ -196,14 +197,18 @@ tag-format='semantics/1.0' version='1.0' root='power'>
 		</one-of>
 		<item repeat='0-1'><ruleref special='GARBAGE'/></item>
     	</rule>
-    	<rule id='lights' scope='public'>
+    	<rule id='dimblinking' scope='public'>
 		<item repeat='0-1'><ruleref special='GARBAGE'/></item>
         	<one-of>
 			<item>blinking</item>
 			<item>dim</item>
 			<item>bright</item>
-			<item>partial</item>
 		</one-of>
+		<item repeat='0-1'><ruleref special='GARBAGE'/></item>
+    	</rule>
+	<rule id='lights' scope='public'>
+		<item repeat='0-1'><ruleref special='GARBAGE'/></item>
+		<item>partial</item>
 		<item repeat='0-1'><ruleref special='GARBAGE'/></item>
     	</rule>
 </grammar>
